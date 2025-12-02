@@ -1,2 +1,209 @@
-# jabones-
-jabones
+
+[jabonesezdi.html](https://github.com/user-attachments/files/23870859/jabonesezdi.html)
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ezdi – Shampoo en Barra</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #f7f0f5;
+            color: #444;
+            font-size: 24px;
+        }
+
+        header {
+            background: linear-gradient(135deg, #ffe3ec, #d5e8ff);
+            padding: 120px 20px;
+            text-align: center;
+            border-bottom-left-radius: 50% 15%;
+            border-bottom-right-radius: 50% 15%;
+        }
+
+        header h1 {
+            font-size: 6rem;
+            margin: 0;
+            color: #6a4c93;
+            letter-spacing: 8px;
+            font-weight: 900;
+        }
+
+        header p {
+            font-size: 2.3rem;
+            color: #6d6875;
+            margin-top: 20px;
+            font-weight: 500;
+        }
+
+        .section {
+            max-width: 1500px;
+            margin: 80px auto;
+            padding: 20px;
+        }
+
+        h2 {
+            font-size: 3.5rem;
+            text-align: center;
+            color: #6a4c93;
+            margin-bottom: 50px;
+        }
+
+        .productos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 45px;
+        }
+
+        .card {
+            background-color: #ffffff;
+            border-radius: 35px;
+            padding: 45px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+            text-align: center;
+            transition: transform 0.3s;
+            font-size: 1.5rem;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 360px;
+            object-fit: cover;
+            border-radius: 30px;
+            margin-bottom: 25px;
+        }
+
+        .card h3 {
+            color: #6a4c93;
+            margin-bottom: 15px;
+            font-size: 2.3rem;
+        }
+
+        .card p {
+            margin-bottom: 10px;
+        }
+
+        .precio {
+            font-size: 2rem;
+            color: #ff6b81;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 18px 40px;
+            background: #ffd6e0;
+            color: #6a4c93;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.5rem;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #f8bfd0;
+        }
+
+        .redes {
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        .redes h2 {
+            font-size: 3rem;
+            color: #6a4c93;
+            margin-bottom: 30px;
+        }
+
+        .redes a {
+            display: inline-block;
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 2rem;
+            color: #6a4c93;
+            transition: transform 0.3s, color 0.3s;
+        }
+
+        .redes a:hover {
+            transform: scale(1.2);
+            color: #ff6b81;
+        }
+
+        footer {
+            text-align: center;
+            padding: 60px;
+            background-color: #ffe9f3;
+            margin-top: 80px;
+            color: #6a4c93;
+            font-weight: bold;
+            font-size: 1.6rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Ezdi</h1>
+        <p>“Belleza natural en cada barra”</p>
+    </header>
+
+    <div class="section">
+        <h2>Nuestros Productos</h2>
+
+        <div class="productos">
+
+            <!-- Jabón/Shampoo Rosa -->
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0IBuSiPuPsZa7zWZpHQF39kfYIEhuIq_tXQ&s" alt="Jabón Rosa">
+                <h3>Shampoo en Barra – Rosa</h3>
+                <p>Un aroma suave y floral que hidrata y deja el cabello sedoso. Ideal para todo tipo de cabello y uso diario.</p>
+                <div class="precio">$12.99 USD</div>
+                <a class="btn" href="#">Comprar</a>
+            </div>
+
+            <!-- Jabón/Shampoo Natural -->
+            <div class="card">
+                <img src="https://cosmeticapedroches.com/wp-content/uploads/2018/01/Beneficios-del-jabon-artesanal.jpg" alt="Jabón Natural">
+                <h3>Shampoo en Barra – Natural</h3>
+                <p>Hecho con ingredientes puros, suave para todo tipo de cabello. Fortalece desde la raíz y cuida el cuero cabelludo.</p>
+                <div class="precio">$11.50 USD</div>
+                <a class="btn" href="#">Comprar</a>
+            </div>
+
+            <!-- Jabón/Shampoo Lavanda -->
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD-Ph2FzsX4NpwN7o9eR2j54oSzZJNLWFuGg&s" alt="Jabón Lavanda">
+                <h3>Shampoo en Barra – Lavanda</h3>
+                <p>Relajante y calmante, ideal para revitalizar el cuero cabelludo y dar una sensación de bienestar.</p>
+                <div class="precio">$13.00 USD</div>
+                <a class="btn" href="#">Comprar</a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Redes Sociales -->
+    <div class="redes">
+        <h2>Síguenos en nuestras redes</h2>
+        <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        <a href="https://www.tiktok.com" target="_blank">TikTok</a>
+        <a href="https://www.facebook.com" target="_blank">Facebook</a>
+    </div>
+
+    <footer>
+        © 2025 Ezdi · Belleza consciente y natural 💗
+    </footer>
+
+</body>
+</html>
